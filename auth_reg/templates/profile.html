@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile <?= $name; ?></title>
+    <link rel="stylesheet" href="/auth_reg/assets/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logout">
+            <a href="/auth_reg/includes/logout.php">
+                <button>Logout</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="/auth_reg/<?= $photo; ?>" alt="profile pic" width="300" height="200">
+            <h1><?= $name; ?></h1>
+            <p class="title"><?= $email; ?></p>
+            <p>Registered: <?= $created_at; ?></p>
+            <p>
+                <a href="mailto:<?= $email; ?>">
+                    <button class="contact">Contact</button>
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inner_container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.p_reg {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.contact {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.logout {
+    float: right;
+}
+
+.contact:hover {
+    opacity: 0.7;
+}
+
+#photo {
+    background: #dc984f;
+}
+
+#message {
+    height: 30px;
+}
+
+#password_strength {
+    color: red;
+    height: 30px;
+}
+
+a {
+    color: darkseagreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid salmon;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: lightsalmon;
+    border: none;
+    cursor: pointer;
+}
